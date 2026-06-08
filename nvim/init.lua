@@ -1,1 +1,30 @@
-require('vekby')
+-- basic setup
+require('ekby.set')
+require('ekby.keymap')
+
+-- plugins
+require('plugin.autopairs')
+require('plugin.oil')
+require('plugin.file-picker')
+require('plugin.harpoon')
+require('plugin.fidget')
+require('plugin.flash')
+require('plugin.mini-surround')
+require('plugin.tabout')
+require('plugin.autocomplete')
+require('plugin.style')
+require('plugin.treesitter')
+require('plugin.toggleterm')
+require('plugin.whichkey')
+require('plugin.live-share')
+
+-- lsp
+require('plugin.lsp')
+require('plugin.lsp.rust-analyzer')
+require('plugin.lsp.lua_ls')
+require('plugin.lsp.typst')
+require('plugin.lsp.clangd')
+require('plugin.lsp.gopls')
+require('plugin.lsp.vtsls')
+require('plugin.lsp.hls')
+require('plugin.lsp.phpactor')
